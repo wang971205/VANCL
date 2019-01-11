@@ -1,0 +1,132 @@
+.vanclHead {
+  width: 100%; }
+
+.headerTopAreaBox {
+  width: 100%;
+  height: 32px;
+  border-bottom: 1px solid #aaa;
+  background-color: #fff; }
+
+.headerTopArea {
+  width: 100%;
+  height: 32px;
+  background-color: #f7f7f7; }
+
+.headerTopArea .headerTop {
+  width: 1200px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto; }
+
+.headerTopRight {
+  width: 126px;
+  float: right;
+  margin-left: 5px; }
+
+.headerTopArea #vanclCustomer {
+  width: 70px;
+  height: 18px;
+  float: left; }
+
+.headerTopArea #vanclCustomer a {
+  color: #808080;
+  font-size: 12px; }
+
+.headerTopArea #vanclCustomer .iconfont {
+  font-size: 12px;
+  color: red; }
+
+.headerTopRight .payattention {
+  float: right; }
+
+.headerTopRight .payattention a:nth-child(1) i {
+  color: #3eb130; }
+
+.headerTopRight .payattention a:nth-child(2) i {
+  color: #f6dd5c; }
+
+.headerTopLeft {
+  float: right; }
+
+.headerTopLeft .top {
+  font-size: 12px;
+  color: #808080; }
+
+.headerTopLeft span a {
+  color: #808080; }
+
+.headerTopArea .recommendArea {
+  float: right;
+  margin: 0 10px 0 10px; }
+
+.headerTopArea .recommendArea a {
+  color: #808080;
+  font-size: 12px; }
+
+.vanclLogoSearch {
+  width: 1200px; }
+
+.vanclSearch {
+  width: 438px;
+  padding-top: 8px;
+  float: right;
+  position: relative; }
+
+.SearchTab {
+  height: 29px; }
+
+.Searchleft .searchtext {
+  width: 259px;
+  height: 27px;
+  border: 1px solid #c9caca;
+  font-size: 10px;
+  color: black;
+  line-height: 27px;
+  padding: 0 5px;
+  float: left; }
+
+.Searchleft .SearchButton {
+  width: 49px;
+  height: 29px;
+  background-color: #b81b22;
+  border: 0;
+  color: #fff; }
+
+.SearchTab .Searchright {
+  width: 109px;
+  height: 29px;
+  background-color: #b81b22;
+  line-height: 29px;
+  position: absolute;
+  top: 8px;
+  right: -13px; }
+
+.SearchTab .Searchright i {
+  font-size: 20px;
+  color: #fff; }
+
+.SearchTab .Searchright a {
+  font-size: 12px;
+  color: #fff; }
+
+.Hotsearch {
+  width: 440px;
+  padding-top: 5px;
+  position: absolute;
+  top: 97px;
+  right: 59px; }
+
+.Hotsearch li {
+  float: left;
+  padding-left: 15px; }
+
+.Hotsearch li a {
+  font-size: 12px;
+  color: #808080; }
+
+.Hotsearch p {
+  float: left;
+  font-size: 12px;
+  color: #808080; }
+
+/*# sourceMappingURL=index.css.map */
