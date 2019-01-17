@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="css/reset.min.css">
 		<link rel="stylesheet" href="css/index.min.css">
 		<link rel="stylesheet" href="images/iconfont/iconfont.css">
+		<!-- 用require.js管理当前页面引入所有的js文件 -->
+		<script src = 'js/require.js' async="true" defer data-main = "js/main"></script>
 	</head>
 	<body>
 		<!-- Head -->
@@ -27,8 +29,8 @@
 							<div id="welcome" class="top loginArea">
 								<span class="top">您好,欢迎光临凡客诚品！&nbsp;</span>
 								<span>
-								<a href="" class="register">登录</a>&nbsp;|&nbsp;
-								<a href="" class="login">注册</a>
+								<a href="login.html" class="login">登录</a>&nbsp;|&nbsp;
+								<a href="register.html" class="register">注册</a>
 								</span> 
 							    <div class="recommendArea">
 								<a href="">我的订单</a>
@@ -67,6 +69,346 @@
 						</ul>
 					</div>
 				</div>
+			<div class="nav">
+				<div class="nav_top">
+					<a href="index.html"><img src="images/logo.jpg" alt=""></a>
+				</div>
+				<div id="nav_li">
+					<ul> 
+												
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<!-- content -->
+		<div class="content" class="vanclContent">
+			<div class="Content_carousel" id="">
+				<button class="a1"><i class="iconfont">&#xe502;</i></button>
+				<ul class="img_ul" id="carousel1">
+					<li id="item1"><img src="images/1.jpg" alt="图片1"></li>
+					<li id="item2"><img src="images/2.jpg" alt="图片2"></li>
+					<li id="item3"><img src="images/3.jpg" alt="图片3"></li>
+					<li id="item4"><img src="images/4.jpg" alt="图片4"></li>
+					<li id="item5"><img src="images/5.jpg" alt="图片5"></li>
+					<li id="item6"><img src="images/6.jpg" alt="图片6"></li>
+				</ul>
+				<ol class="dot">
+					<li class="hover"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+				<button class="a2"><i class="iconfont">&#xe501;</i></button>
+			</div>
+		</div>
+		<div class="getMoney">
+			<div class="getMoney_top">
+				<div class="Money_left">
+					<a href="#"><span>充100返100</span></a>
+				</div>
+				<div class="Money_right">
+					<a href="#"><span>11.11获奖名单</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="seckill">
+			<a href="#">
+				<i class="iconfont">&#xe66b;</i>
+				<h2>每日秒杀</h2>
+				<span><p>|</p>限时特惠&nbsp&nbsp欲购从速</span>
+				<span id="seckill_time" class="seckill_time_r">
+					<em id="t">秒杀即将开始，距开始还有</em>
+					<em id="hour">10</em>
+					<em>:</em>
+					<em id="min">21</em>
+					<em>:</em>
+					<em id="sec">49</em>
+				</span>
+			</a>
+		</div>
+		<div class="seckill_container">
+			<ul>
+				<li>
+					<a href="particulars.html">
+						<img src="images/6384069-1j201812281501495191.jpg" alt="">
+						<div class="productname">
+							<span>T恤 剪纸猪 1 白色</span>
+						</div>
+						<div class="price">
+							<span class="oldprice">￥<em>118</em></span>
+							<span class="saleprice">￥<em>78</em></span>
+							<span class="afterdeposit">充值后<em>39</em>元</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="particulars.html">
+						<img src="images/6375173-1j201709151925388317.jpg" alt="">
+						<div class="productname">
+							<span>凡客夹克 双帽双拉链 轻弹 男款 藏青色</span>
+						</div>
+						<div class="price">
+							<span class="oldprice">￥<em>798</em></span>
+							<span class="saleprice">￥<em>198</em></span>
+							<span class="afterdeposit">充值后<em>99</em>元</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="particulars.html">
+						<img src="images/6374219-1j201705311044059767.jpg" alt="">
+						<div class="productname">
+							<span>凡客棉线衫 波点七分袖 女款 蓝色波点</span>
+						</div>
+						<div class="price">
+							<span class="oldprice">￥<em>228</em></span>
+							<span class="saleprice">￥<em>78</em></span>
+							<span class="afterdeposit">充值后<em>39</em>元</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="particulars.html">
+						<img src="images/6374105-1j201709191136144818.jpg" alt="">
+						<div class="productname">
+							<span>凡客卫衣 连帽开衫2 中灰色</span>
+						</div>
+						<div class="price">
+							<span class="oldprice">￥<em>928</em></span>
+							<span class="saleprice">￥<em>258</em></span>
+							<span class="afterdeposit">充值后<em>129</em>元</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="particulars.html">
+						<img src="images/6378341-1j201801111409218163.jpg" alt="">
+						<div class="productname">
+							<span>凡客卫衣 圆领 熊本熊 S2 黑色</span>
+						</div>
+						<div class="price">
+							<span class="oldprice">￥<em>278</em></span>
+							<span class="saleprice">￥<em>136</em></span>
+							<span class="afterdeposit">充值后<em>68</em>元</span>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="more">
+			<a href="index.html"><img src="images/xhsm_01 (1).jpg" alt=""></a>
+		</div>
+		<!-- 产品展示 -->
+		<div class=" product">
+			<ul>
+				<a href="">
+					<li><img src="images/xhsm_03.jpg" alt=""></li>
+					<li><img src="images/xhsm_05.jpg" alt=""></li>
+					<li><img src="images/xhsm_07.jpg" alt=""></li>
+					<li><img src="images/xhsm_09.jpg" alt=""></li>
+				</a>	
+			</ul><br/>
+			<ul>
+				<a href="">
+					<li><img src="images/xhsm_13.jpg" alt=""></li>
+					<li><img src="images/xhsm_15.jpg" alt=""></li>
+					<li><img src="images/xhsm_17 (1).jpg" alt=""></li>
+					<li><img src="images/xhsm_19.jpg" alt=""></li>
+				</a>	
+			</ul>
+			<div class="recommend_optimization">
+				<h2>优选推荐</h2>
+				<div class="optimizationTop">
+					<ul>
+						<li class="pic_1">
+							<a href="index.html">
+								<img src="images/pc-4.jpg" alt="">
+							</a>
+							<h3><span>充值购买更优惠</span>4.0日式免烫衬衫</h3>
+						</li>
+						<li class="pic_2">
+							<div>
+								<a href="index.html">
+									<img src="images/pc02.jpg" alt="">
+								</a>
+								<h3>
+									<span>充值购买相当于<em>69</em>元起</span>牛津纺衬衫
+								</h3>
+							</div>
+							<div>
+								<a href="">
+									<img src="images/pc03.jpg" alt="">
+								</a>
+								<h3>
+									<span>充值购买更优惠</span>中空棉拉链开衫
+								</h3>
+							</div>
+						</li>
+						<li class="pic_3">
+							<a href="index.html">
+								<img src="images/pc07.jpg" alt="">
+							</a>
+							<h3>
+								<span>充值购买更优惠</span>外套
+							</h3>
+						</li>
+					</ul>
+				</div>
+				<div class="optimizationTop">
+					<ul>
+						<li class="pic_1">
+							<a href="index.html">
+								<img src="images/xxx.jpg" alt="">
+							</a>
+							<h3><span>充值购买更优惠</span>羽绒服</h3>
+						</li>
+						<li class="pic_2">
+							<div>
+								<a href="index.html">
+									<img src="images/x.jpg" alt="">
+								</a>
+								<h3>
+									<span>充值购买更优惠</span>熊本熊卫衣
+								</h3>
+							</div>
+							<div>
+								<a href="">
+									<img src="images/pc05.jpg" alt="">
+								</a>
+								<h3>
+									<span>充值购买更优惠</span>针织衫
+								</h3>
+							</div>
+						</li>
+						<li class="pic_3">
+							<a href="index.html">
+								<img src="images/286x440.jpg" alt="">
+							</a>
+							<h3>
+								<span>充值购买更优惠</span>户外运动
+							</h3>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="recommend_bottoms">
+				<h2>下装推荐</h2>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="images/pc01.jpg" alt="">
+						</a>
+						<h3>
+							<span>充值购买相当于<em>39</em>元起</span>休闲裤
+						</h3>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/pc02_002.jpg" alt="">
+						</a>
+						<h3>
+							<span>充值购买相当于<em>39</em>元起</span>休闲裤
+						</h3>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/pc04.jpg" alt="">
+						</a>
+						<h3>
+							<span>充值购买相当于<em>39</em>元起</span>休闲裤
+						</h3>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/pc03_002.jpg" alt="">
+						</a>
+						<h3>
+							<span>充值购买相当于<em>39</em>元起</span>休闲裤
+						</h3>
+					</li>
+				</ul>
+			</div>
+			<div class="recommend_more">
+				<div>
+					<h2>更多精品</h2>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/pc-fbx.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/wz.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/pc-wp.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/pc-xb.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/pc-jj.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/pc-ny.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- foot -->
+		<div class="vanclFoot">
+			<div class="vanclFoot_content">
+				<div class="Customer">
+					<ul>
+						<li><a href="#"><i class="iconfont">&#xe626;</i><p>7X9小时在线客服</p></a></li>
+						<li><a href="#"><i class="iconfont">&#xe639;</i><p>7天内退货<br/>购物满199元免运费</p></a></li>
+						<li><a href="#"><img src="images/code.jpg" alt=""><p>扫描下载凡客客户端</p></a></li>
+					</ul>
+				</div>
+				<div class="Others">
+					<ul>
+						<li><a href="#">关于凡客</a></li>
+						<li><a href="#">新手指南</a></li>
+						<li><a href="#">配送范围及时间</a></li>
+						<li><a href="#">支付方式</a></li>
+						<li><a href="#">售后服务</a></li>
+						<li><a href="#">帮助中心</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footerArea">
+			<div class="footBottom">
+				<div class="footBottomTab">
+					<p> Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+					<p>凡客诚品（北京）科技有限公司</p>
+				</div>
+			</div>
+			<div class="subFooter">
+				<a href="https://credit.cecdc.com/CX20111229001302001330.html"><img src="images/foot_1.jpg" alt=""></a>
+				<a href=""><img src="images/foot_2.jpg" alt=""></a>
+				<a href="http://www.315online.com.cn/member/315090053.html"><img src="images/foot_3.jpg" alt=""></a>
+				<a href="http://gsj.beijing.gov.cn/beian/view.asp?bianhao=010202010081900017"><img src="images/foot_4.jpg" alt=""></a>
+				<a href="http://www.vancl.com/help/about_2.htm"><img src="images/foot_5.jpg" alt=""></a>
+				<a href="http://trust.cctvmall.cn/reg/templates/brandtem1010.html"><img src="images/foot_6.jpg" alt=""></a>
+			</div>
 		</div>
 	</body>
 </html>

@@ -1,0 +1,250 @@
+/*head*/
+#Head {
+  width: 1200px;
+  border-bottom: 1px solid #7a7f89;
+  margin-top: 10px;
+  padding: 0 0 15px 0;
+  margin-left: 39px; }
+
+.regist {
+  width: 100%;
+  margin: 30px 0 0 0; }
+
+.regist h1 {
+  height: 35px;
+  font-size: 20px;
+  color: #a2a2a2;
+  font-weight: bolder;
+  line-height: 35px;
+  float: right;
+  margin: 0 100px 0 0;
+  width: 415px;
+  border-bottom: 2px solid #b81e20; }
+
+.regist h1 span {
+  font-size: 14px;
+  float: right; }
+
+.regist h1 span a {
+  color: #a10000;
+  text-decoration: none; }
+
+.advertising {
+  float: left;
+  width: 465px;
+  height: 352px;
+  margin: 50px 0 0 170px; }
+
+.regist_infor {
+  width: 415px;
+  float: right;
+  margin-right: 100px; }
+
+.regist_infor li {
+  margin-top: 15px; }
+
+.regist_infor .code_security {
+  width: 415px;
+  height: 45px;
+  position: relative; }
+
+.regist_infor .code_security .code_tupian {
+  width: 260px;
+  height: 43px;
+  line-height: 43px;
+  border: 1px solid #cbcbcb;
+  color: #656565;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 14px; }
+
+.regist_infor .code_security .code_img {
+  width: 140px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 272px; }
+
+.regist_infor .code_security span {
+  border: 1px solid #ffd5d5;
+  padding: 3px 5px;
+  position: absolute;
+  left: 0px;
+  background-color: #f9f9f9;
+  top: 46px;
+  font-size: 12px; }
+
+#phoneCode .phone_div {
+  position: relative;
+  width: 415px; }
+
+#phoneCode .phone_div #number {
+  width: 260px;
+  height: 43px;
+  line-height: 43px;
+  color: #656565;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 14px; }
+
+#phoneCode .phone_div .yanzheng_btn {
+  width: 140px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #f5f5f5;
+  color: #b52024;
+  border: 1px solid #cbcbcb;
+  display: block;
+  float: right;
+  margin: 0 0 0 10px;
+  font-weight: bolder; }
+
+#phoneCode .phone_div span {
+  position: absolute;
+  left: 0px;
+  top: 47px;
+  font-size: 12px; }
+
+.tele_li .yanzheng_div {
+  position: relative;
+  width: 412px; }
+
+.tele_li .yanzheng_div .yanzheng_input {
+  height: 45px;
+  line-height: 45px;
+  color: #656565;
+  position: absolute;
+  left: 0px;
+  top: 63px;
+  width: 100%;
+  display: block;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 14px; }
+
+.tele_li .yanzheng_div span {
+  position: absolute;
+  left: 0px;
+  top: 110px;
+  font-size: 12px; }
+
+.password_div {
+  width: 412px;
+  position: relative; }
+
+.password_div .login_input {
+  height: 45px;
+  line-height: 45px;
+  color: #656565;
+  position: absolute;
+  left: 0px;
+  top: 130px;
+  width: 100%;
+  display: block;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 14px; }
+
+.password_div span {
+  position: absolute;
+  left: 0px;
+  top: 180px;
+  font-size: 12px; }
+
+.pas {
+  position: relative;
+  width: 412px; }
+
+.pas .pas1 {
+  height: 45px;
+  line-height: 45px;
+  color: #656565;
+  position: absolute;
+  left: 0px;
+  top: 195px;
+  width: 100%;
+  display: block;
+  text-align: left;
+  text-indent: 10px;
+  font-size: 14px; }
+
+.pas span {
+  position: absolute;
+  left: 0px;
+  top: 245px;
+  font-size: 12px; }
+
+.select {
+  margin: 280px 0 0 0px; }
+
+.select span {
+  color: #9d9d9d;
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 12px;
+  margin: 0 0 10px 0; }
+
+.select span input {
+  float: left; }
+
+.select span label {
+  text-align: right; }
+
+.select span label a {
+  font-size: 12px;
+  color: #b52024;
+  font-weight: bolder; }
+
+.select a {
+  color: #333;
+  text-decoration: none; }
+
+.select .submit_a {
+  background-color: #9A9A9A;
+  color: #fff;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 0;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 20px; }
+
+/*foot*/
+.footBottom {
+  width: 1200px;
+  height: auto;
+  float: left;
+  margin-top: 25px;
+  margin-left: 39px;
+  font-size: 12px; }
+
+.footBottomTab {
+  width: 1200px;
+  margin: 10px auto; }
+
+.footBottomTab p {
+  text-align: center;
+  line-height: 25px;
+  color: #3e3a39; }
+
+.subFooter {
+  width: 980px;
+  margin: 0px auto 25px;
+  text-align: center;
+  margin-left: 259px; }
+
+.subFooter a {
+  float: left;
+  padding-left: 30px;
+  margin-top: 30px; }
